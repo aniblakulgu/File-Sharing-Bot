@@ -124,7 +124,10 @@ async def not_joined(client: Client, message: Message):
         [
             InlineKeyboardButton(
                 "Kanalga Qoshilish",
-                url = client.invitelink)
+                url = client.invitelink),
+        ],
+        [
+            InlineKeyboardButton("Kanalga Qoshilish 2",url = 'https://t.me/Qora_klever')
         ]
     ]
     try:
